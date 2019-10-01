@@ -8,9 +8,9 @@ test = () => {
             prevNumber++;
            
         }
-        var b=a;
-        console.log(b)
+        console.log(a)
     }
+    return a;
 }
 
 test()
