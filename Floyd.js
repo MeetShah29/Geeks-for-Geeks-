@@ -1,0 +1,17 @@
+test = () => {
+    var a = " ", prevNumber = 1, i, depth = 10, b;
+    for (i = 0; i < depth; i++) {
+        j = 0, a = "";
+        while (j <= i) {
+            a = a + " " + prevNumber;
+            j++;
+            prevNumber++;
+           
+        }
+        var b=a;
+        console.log(b)
+    }
+    return b;
+}
+
+console.log(test())
