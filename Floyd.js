@@ -11,7 +11,6 @@ test = () => {
         var b=a;
         console.log(b)
     }
-    return b;
 }
 
-console.log(test())
+test()
